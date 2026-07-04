@@ -1,0 +1,23 @@
+[[seller]]
+name = "seller-cheap"
+service = "sipquest-reveal"
+floor_sol = 0.0004
+persona = "low-cost basic SipQuest reveal seller"
+
+[[seller]]
+name = "seller-premium"
+service = "sipquest-reveal"
+floor_sol = 0.0012
+persona = "rich story and art SipQuest reveal seller"
+
+[[seller]]
+name = "seller-safe"
+service = "sipquest-reveal"
+floor_sol = 0.0009
+persona = "safety-first SipQuest reveal seller"
+
+[[seller]]
+name = "seller-rare"
+service = "sipquest-reveal"
+floor_sol = 0.001
+persona = "rare-drop storyteller with no financial upside language"

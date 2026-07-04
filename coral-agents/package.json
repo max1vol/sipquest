@@ -1,0 +1,13 @@
+{
+  "name": "sipquest-coral-agents",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "typescript": "^5.8.0"
+  }
+}

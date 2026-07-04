@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sipquest-box-agent"
+version = "0.1.0"
+description = "ASI:One-compatible SipQuest physical box agent"
+requires-python = ">=3.11"
+dependencies = [
+  "certifi>=2025.0.0",
+  "openai>=2.0.0",
+  "python-dotenv>=1.0.1",
+  "uagents>=0.22.0",
+  "websocket-client>=1.8.0",
+]
+
+[project.optional-dependencies]
+camera = [
+  "opencv-python>=4.9.0.80",
+]
+hardware = [
+  "pyserial>=3.5",
+]
+test = [
+  "pytest>=8.0.0",
+]
+
+[project.scripts]
+sipquest-box-agent = "agents.sipquest_box_agent:main"
+sipquest-voice-box = "sipquest_voice_box.__main__:main"
+
+[tool.setuptools.packages.find]
+where = [".", "src"]
+include = ["agents*", "sipquest*", "sipquest_voice_box*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,34 @@
+[
+  {
+    "slot_id": "A1",
+    "physical_name": "blue bottle",
+    "display_name": "Blue Nova",
+    "vibes": ["energy", "wildcard", "blue"],
+    "caffeine": true,
+    "rarity": "rare",
+    "badge": "Signal Surfer",
+    "art_title": "Blue Market Comet",
+    "set_name": "Launch Set",
+    "set_slot": 1,
+    "set_total": 2,
+    "story": "A bright blue mystery drop for people who choose the unknown.",
+    "in_stock": true,
+    "vision_hint": "blue"
+  },
+  {
+    "slot_id": "B1",
+    "physical_name": "clear bottle",
+    "display_name": "Crystal Chill",
+    "vibes": ["chill", "clear", "caffeine-free"],
+    "caffeine": false,
+    "rarity": "uncommon",
+    "badge": "Crystal Scout",
+    "art_title": "Transparent Orbit",
+    "set_name": "Launch Set",
+    "set_slot": 2,
+    "set_total": 2,
+    "story": "A calm clear mystery bottle chosen when safety and chill matter most.",
+    "in_stock": true,
+    "vision_hint": "clear"
+  }
+]

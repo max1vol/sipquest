@@ -1,0 +1,44 @@
+[
+  {
+    "project_id": "sq-community-boxes",
+    "title": "SipQuest community hydration boxes",
+    "requested_gbp": 4800,
+    "target_people": 2200,
+    "underserved_weight": 0.82,
+    "evidence_strength": 0.7,
+    "counterfactual_need": 0.86,
+    "milestone_clarity": 0.9,
+    "verification_strength": 0.88,
+    "open_source_reuse": 0.78,
+    "delivery_risk": 0.24,
+    "summary": "Deploy agentic vending boxes in youth and community venues with open-source safety and inventory logic."
+  },
+  {
+    "project_id": "open-refreshment-rubric",
+    "title": "Reusable public-refreshment grant rubric",
+    "requested_gbp": 2600,
+    "target_people": 800,
+    "underserved_weight": 0.7,
+    "evidence_strength": 0.76,
+    "counterfactual_need": 0.74,
+    "milestone_clarity": 0.94,
+    "verification_strength": 0.92,
+    "open_source_reuse": 0.96,
+    "delivery_risk": 0.16,
+    "summary": "Package the scoring, milestone verification, and public audit trail so other microgrant programs can reuse it."
+  },
+  {
+    "project_id": "campus-brand-activation",
+    "title": "Campus brand activation boxes",
+    "requested_gbp": 5200,
+    "target_people": 3000,
+    "underserved_weight": 0.28,
+    "evidence_strength": 0.55,
+    "counterfactual_need": 0.22,
+    "milestone_clarity": 0.7,
+    "verification_strength": 0.6,
+    "open_source_reuse": 0.35,
+    "delivery_risk": 0.22,
+    "summary": "Commercial campus rollout with lighter public-good need."
+  }
+]
