@@ -1,0 +1,9 @@
+name = "sipquest-agent-endpoint"
+main = "workers/sipquest-agent-endpoint/src/index.js"
+compatibility_date = "2025-12-01"
+
+[observability]
+enabled = true
+
+[vars]
+AGENT_ORIGIN_URL = ""

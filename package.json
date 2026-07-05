@@ -1,0 +1,15 @@
+{
+  "name": "sipquest-agent-endpoint",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "cf:build": "cf build",
+    "cf:deploy": "cf deploy",
+    "cf:dev": "cf dev",
+    "wrangler:deploy": "wrangler deploy",
+    "wrangler:dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.107.0"
+  }
+}

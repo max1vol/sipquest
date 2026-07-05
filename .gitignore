@@ -7,3 +7,5 @@ __pycache__/
 data/last_camera_frame.jpg
 watch/sipquest-watch/.pio/
 watch/sipquest-watch/src/secrets.h
+.cloudflare/
+uagents_core.log
